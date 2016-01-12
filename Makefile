@@ -13,5 +13,5 @@ $(HOMEWORK)_$(STUDENT_ID).o: $(HOMEWORK)_$(STUDENT_ID).c $(TASKNAME).h
 	gcc -Wall -c $(HOMEWORK)_$(STUDENT_ID).c
 
 clean:
-	rm -v *.o *.exe
+	rm -fv *.o *.exe $(OUTPUT)
 
